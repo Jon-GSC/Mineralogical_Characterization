@@ -19,11 +19,11 @@
      
    1. The three main python codes and _/itools_, _/data_ need be save in same folder. Before run the code, need install open-source Python packages.
 
-   2. _forWeb1_Data_prepare.py_ is used to generate the training dataset, and saved automatically in _.
+   2. _forWeb1_Data_prepare.py_ is used to loading '.las' files, generate the training dataset, and save as '.pkl'.
 
-   3. _forWeb2_Model_training.py_ is used to create the model, and predict the resistivity of evaluation set. All of the data should be saved in one folder, code will run through each of the data and save all of the results in same folder.
+   3. _forWeb2_Model_training.py_ is used to create the models, and training/validation with datasets from step 2. All of the weight parameters will be saved in one folder, code will run through each of the components and save all of the results in one folder.
 
-   4. _forWeb3_Prediction.py_ is used for predicting of mineral composition, and plotting figures..
+   4. _forWeb3_Prediction.py_ is used for predicting of mineral composition with conventional petrophysical logs, and plotting figures.
   
    For pilot running, user does not need change any parameters, just run the code files in steps 2,3,4. The code should run without any error if environment setting is correct. Please contact at following email address if any bugs popup.
 
