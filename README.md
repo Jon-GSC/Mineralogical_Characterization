@@ -1,12 +1,14 @@
 # Mineralogical_Characterization
 
-## updating...
+## ...updating...
 
 * Machine learning approach to predict the mineral compositions using conventional and geochemical well logs
 
+
 ### Download link-note:
 
-* The goal of this study is using a combined approach with previous U-Net and XGBoost algorithm for mineralization composition analysis using petrophysical logs from selected formationtrain. The code has been tested without any issue in PyCharm IDE. 
+* The goal of this study is using a combined approach with previous U-Net and XGBoost algorithm for mineralization composition analysis with petrophysical logs from selected formations. The code has been tested without any issue in PyCharm IDE. 
+
 
 ### Requirements: 
 
@@ -22,11 +24,11 @@
      
    1. The three main python codes and _/itools_, _/data_ need be save in same folder. Before run the code, need install open-source Python packages.
 
-   2. _forWeb1_Data_prepare.py_ is used to loading '.las' files, generate the training dataset, and save as '.pkl'.
+   2. _forWeb1_Data_prepare.py_ is used to loading '.las' files, generate the training dataset, and save as '.csv/.pkl'.
 
    3. _forWeb2_Model_training.py_ is used to create the models, and training/validation with datasets from step 2. All of the weight parameters will be saved in one folder, code will run through each of the components and save all of the results in one folder.
 
-   4. _forWeb3_Prediction.py_ is used for predicting of mineral composition with conventional petrophysical logs, and plotting figures.
+   4. _forWeb3_Prediction.py_ is used for predicting of mineral composition with conventional petrophysical logs, and plotting output figures.
   
    For pilot running, user does not need change any parameters, just run the code files in steps 2,3,4. The code should run without any error if environment setting is correct. Please contact at following email address if any bugs popup.
 
