@@ -46,8 +46,9 @@
 
 * This Mineralogical characterization study used open source codes and library from github, google, and open-sourced geoscience packages lasio. Please cite the related references in your publications.
   
-<div style="Validation:center"></div>
+#### Validation:
 ![p_28229_edited_Github](https://github.com/Jon-GSC/Mineralogical_Characterization/assets/39324742/f272a373-054f-46a7-84d2-9a2c0fedc1f3)
 
+#### Prediction:
 ![p_core_24971_edited_Github](https://github.com/Jon-GSC/Mineralogical_Characterization/assets/39324742/fda6d582-2002-4897-84aa-a474f1cb553e)
 
