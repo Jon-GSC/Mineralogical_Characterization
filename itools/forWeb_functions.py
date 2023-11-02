@@ -20,7 +20,7 @@ from keras.layers import Dropout, Add, Lambda, Flatten, Dense, Reshape
 from keras import backend as K
 from keras.regularizers import l2
 from keras.models import load_model
-from keras.layers import Input, LeakyReLU
+from keras.layers import Input
 from keras.engine.training import Model
 from keras.layers.convolutional import Conv1D, UpSampling1D, Conv2DTranspose
 from keras.layers.core import Activation, SpatialDropout2D
