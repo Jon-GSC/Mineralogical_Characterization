@@ -119,24 +119,6 @@ def rmse(y_true, y_pred):
     return K.sqrt(mse(y_true, y_pred))
 
 
-def predict_dist(model, x_test, num_samples):
-    preds = [model(x_test, training=True) for _ in range(num_samples)]
-    return np.dstack(preds)
-
-
-def predict_value(model, x_test, num_samples):
-    pred_dist = predict_dist(model, x_test, num_samples)
-    return pred_dist.mean(axis=2)
-
-
-def train_XGBoost(model_name, X_train, y_train, X_valid, y_valid):
-    model = xgb.XGBRegressor(n_estimators=1000, max_depth=11, eta=0.005, subsample=0.7, colsample_bytree=0.8,
-                             n_jobs=100,
-                             random_state=2021, tree_method='auto')
-    model.fit(X_train, y_train, early_stopping_rounds=100, eval_set=[(X_valid, y_valid)], verbose=1)
-    pickle.dump(model, open(model_name, 'wb'))
-
-
 def plot_feature_stats(X, y, feature_names, facies_colors, facies_names):
     nan_idx = np.any(np.isnan(X), axis=1)
     X = X[np.logical_not(nan_idx), :]
