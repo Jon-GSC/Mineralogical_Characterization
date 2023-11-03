@@ -42,9 +42,17 @@
 * jon.liu@nrcan-rncan.gc.ca
 
 
+### License
+
+Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the MIT Licence
+
+The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law. No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program. For more information, see Federal identity requirements.
+
+
 ### Acknowledgments:
 
 * This Mineralogical characterization study used open source codes and library from github, google, and open-sourced geoscience packages lasio. Please cite the related references in your publications.
+
   
 #### Validation:
 
