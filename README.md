@@ -52,7 +52,10 @@ The Canada wordmark and related graphics associated with this distribution are p
 ### Acknowledgments:
 
 * This Mineralogical characterization study used open source codes and library from github, google, and open-sourced geoscience packages lasio. Please cite the related references in your publications.
+
   
+### Citation:  
+
 * Hu, K., Liu, X., Chen, Z. & Grasby, S.E. 2023, "Mineralogical Characterization From Geophysical Well Logs Using a Machine Learning Approach: Case Study for the Horn River Basin, Canada", Earth and space science (Hoboken, N.J.), vol. 10, no. 12, pp. n/a.
   
 #### Validation:
